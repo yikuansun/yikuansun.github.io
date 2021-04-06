@@ -1,12 +1,12 @@
-function gentable(data) {
+function gensoftwaregallery(data) {
     var table = document.createElement("table");
-    document.body.appendChild(table);
+    document.querySelector("#softwaregallery").appendChild(table);
     table.style.width = "100%";
     table.style.borderSpacing = "10px";
     var i = 0;
     var row = document.createElement("tr");
     for (var point of data) {
-        if (i % Math.floor(window.innerWidth / 400) == 0) {
+        if (i % Math.ceil(window.innerWidth / 500) == 0) {
             row = document.createElement("tr");
             table.appendChild(row);
         }
@@ -43,7 +43,7 @@ function gentable(data) {
     }
 }
 
-gentable([
+gensoftwaregallery([
     {
         name: "Runtime Speedrun Tools",
         imageuri: "https://github.com/yikuansun/desktopspeedruntools/raw/main/demopic.png",
