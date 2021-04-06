@@ -14,3 +14,22 @@ h2 {
 a {
     color: #0085b9;
 }
+
+#topbar a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    animation: colorfade 1s;
+}
+
+@keyframes colorfade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
