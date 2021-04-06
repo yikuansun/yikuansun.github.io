@@ -2,6 +2,7 @@ function gentable(data) {
     var table = document.createElement("table");
     document.body.appendChild(table);
     table.style.width = "100%";
+    table.style.borderSpacing = "10px";
     var i = 0;
     var row = document.createElement("tr");
     for (var point of data) {
@@ -11,6 +12,7 @@ function gentable(data) {
         }
         var td = document.createElement("td");
         td.style.position = "relative";
+        td.style.border = "1px solid grey";
         var divblock = document.createElement("a");
         divblock.style.display = "block";
         divblock.style.width = "100%";
