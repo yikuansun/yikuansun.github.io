@@ -11,13 +11,14 @@ function gentable(data) {
         }
         var td = document.createElement("td");
         td.style.position = "relative";
-        var divblock = document.createElement("div");
+        var divblock = document.createElement("a");
+        divblock.style.display = "block";
         divblock.style.width = "100%";
         divblock.style.height = "300px";
         divblock.style.backgroundImage = "url('" + point.imageuri + "')";
         divblock.style.backgroundSize = "cover";
-        divblock.style.cursor = "pointer";
-        divblock.addEventListener("click", new Function("var a = document.createElement('a'); a.href = '{hyperlink}'; a.target = '_blank'; a.click();".replace("{hyperlink}", point.uri)));
+        divblock.href = point.uri;
+        divblock.target = "_blank";
         var banner = document.createElement("div");
         banner.style.backgroundColor = "#EEEEEE";
         banner.style.position = "absolute";
