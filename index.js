@@ -25,7 +25,7 @@ function gentable(data) {
         banner.style.backgroundColor = "#EEEEEE";
         banner.style.position = "absolute";
         banner.style.width = "100%";
-        banner.style.height = "75px";
+        banner.style.minHeight = "75px";
         banner.style.padding = "15px";
         banner.style.fontSize = "25px";
         banner.style.boxSizing = "border-box";
