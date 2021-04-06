@@ -29,6 +29,11 @@ function gentable(data) {
         banner.style.boxSizing = "border-box";
         banner.style.bottom = 0;
         banner.innerHTML = point.name;
+        var desc = document.createElement("div");
+        desc.style.fontSize = "15px";
+        desc.innerText = point.desc;
+        desc.style.color = "black";
+        banner.appendChild(desc);
         divblock.appendChild(banner);
         td.appendChild(divblock);
         row.appendChild(td);
@@ -40,11 +45,13 @@ gentable([
     {
         name: "Runtime Speedrun Tools",
         imageuri: "https://github.com/yikuansun/desktopspeedruntools/raw/main/demopic.png",
-        uri: "https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools"
+        uri: "https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools",
+        desc: "Speedrun stopwatch and input display"
     },
     {
         name: "Sci-Fi Flares",
         imageuri: "https://github.com/yikuansun/sci-fi-flares/raw/master/demoflare.png",
-        uri: "https://yikuansun.github.io/sci-fi-flares"
+        uri: "https://yikuansun.github.io/sci-fi-flares",
+        desc: "Lens flare renderer"
     },
 ]);
