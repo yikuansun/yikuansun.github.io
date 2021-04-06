@@ -6,7 +6,7 @@ function gentable(data) {
     var i = 0;
     var row = document.createElement("tr");
     for (var point of data) {
-        if (i % 3 == 0) {
+        if (i % Math.floor(window.innerWidth / 400) == 0) {
             row = document.createElement("tr");
             table.appendChild(row);
         }
