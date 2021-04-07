@@ -45,6 +45,12 @@ function gensoftwaregallery(data) {
 
 gensoftwaregallery([
     {
+        name: "Legend",
+        imageuri: "https://bit.ly/rahavi",
+        uri: "https://legendvc.netlify.app/",
+        desc: "Virtual game console"
+    },
+    {
         name: "Runtime Speedrun Tools",
         imageuri: "https://github.com/yikuansun/desktopspeedruntools/raw/main/demopic.png",
         uri: "https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools",
