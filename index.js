@@ -52,13 +52,13 @@ gensoftwaregallery([
     },
     {
         name: "Runtime Speedrun Tools",
-        imageuri: "https://github.com/yikuansun/desktopspeedruntools/raw/main/demopic.png",
+        imageuri: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/434/486/datas/medium.png",
         uri: "https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools",
         desc: "Speedrun stopwatch and input display"
     },
     {
         name: "Sci-Fi Flares",
-        imageuri: "https://github.com/yikuansun/sci-fi-flares/raw/master/demoflare.png",
+        imageuri: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/434/502/datas/medium.png",
         uri: "https://yikuansun.github.io/sci-fi-flares",
         desc: "Lens flare renderer"
     },
