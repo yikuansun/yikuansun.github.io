@@ -19,6 +19,7 @@ function gensoftwaregallery(data) {
         divblock.style.height = "300px";
         divblock.style.backgroundImage = "url('" + point.imageuri + "')";
         divblock.style.backgroundSize = "cover";
+        divblock.style.backgroundPosition = "center";
         divblock.href = point.uri;
         divblock.target = "_blank";
         var banner = document.createElement("div");
