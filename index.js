@@ -51,15 +51,15 @@ gensoftwaregallery([
         desc: "Virtual game console"
     },
     {
+        name: "progen flares",
+        imageuri: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/504/634/datas/gallery.jpg",
+        uri: "https://yikuansun.github.io/progenflares",
+        desc: "Procedurally generated lens flare overlays"
+    },
+    {
         name: "Runtime Speedrun Tools",
         imageuri: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/434/486/datas/medium.png",
         uri: "https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools",
         desc: "Speedrun stopwatch and input display"
-    },
-    {
-        name: "Sci-Fi Flares",
-        imageuri: "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/434/502/datas/medium.png",
-        uri: "https://yikuansun.github.io/sci-fi-flares",
-        desc: "Lens flare renderer"
     },
 ]);
